@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<meta name="theme-color" content="#333333" />
+		<link rel="manifest" href="/manifest.json" crossorigin="use-credentials" />
+		<link rel="icon" type="image/png" href="/favicon.png" />
+		
+		<link href="./_app/immutable/assets/0.Dq_W_4qU.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/toolbar.CgvstNA6.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.BMi6wbOC.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.WQUdRvnY.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.CzL0JPbh.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.mzq4HU0p.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.Bl5Ys3vL.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper.D6kgxu3v.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.CZ9WbNVy.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.DzBxUrnn.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/stores.DeaeLDfU.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/common.C1_fZTma.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/toast.BGIfaa-E.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/6.DV-YTfsx.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/toolbar.DwX_qM_g.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/markmap.Cmb1wKJ_.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/debounce.1acgtFjJ.js">
+	</head>
+	<body>
+		<div>     <svg xmlns="http://www.w3.org/2000/svg" class="w-screen h-screen leading-none" style=""></svg> <div class="absolute right-0 bottom-0 mr-2 mb-2"></div> <div class="toast-wrapper"></div>  
+			
+			<script>
+				{
+					__sveltekit_obmsvm = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.BMi6wbOC.js"),
+						import("./_app/immutable/entry/app.Bl5Ys3vL.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 6],
+							data,
+							form: null,
+							error: null
+						});
+					});
+
+					if ('serviceWorker' in navigator) {
+						addEventListener('load', function () {
+							navigator.serviceWorker.register('./service-worker.js');
+						});
+					}
+				}
+			</script>
+		</div>
+	</body>
+</html>
